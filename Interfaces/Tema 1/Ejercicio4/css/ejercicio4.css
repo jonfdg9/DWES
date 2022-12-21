@@ -1,0 +1,44 @@
+.espe{
+    color: red;
+    font-size: 1.5em;
+    text-decoration: underline;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+span:not(.espe){
+    font-size: 2em;
+    padding: 20px;
+    border:  solid black;
+}
+
+div{
+    background-color: lightblue;
+    border:  solid black;
+    height: 200px;
+    padding: 40px;
+}
+
+#c1{
+    background-color: red;
+}
+#c2{
+    background-color: blue;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+
+   
+}
+#c3{
+    background-color: green;
+    
+}
+#c4{
+    background-color: yellow; 
+    
+    
+}

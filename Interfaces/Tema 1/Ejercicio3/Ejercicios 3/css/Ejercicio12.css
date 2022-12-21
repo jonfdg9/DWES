@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+}
+
+.titulo1{
+    text-shadow: 3px 3px 4px gray;
+}
+.titulo2{
+    text-shadow: -2px -2px 3px grey;
+}
+.titulo3{
+    text-shadow: 2px 2px red, 6px 5px 2px green, 8px 7px 2px blue;
+}

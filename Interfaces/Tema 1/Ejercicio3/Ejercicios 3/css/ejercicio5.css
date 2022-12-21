@@ -1,0 +1,40 @@
+*{
+    color: grey;
+}
+h1{
+    color: teal;
+}
+strong{
+    color: red;
+}
+
+.destacado{
+    color: orange;
+}
+h2{
+    color: blue;
+}
+
+a{
+    color: red;
+}
+
+em{
+    color: blue;
+}
+
+div p{
+    color: olive;
+}
+
+div p a{
+    color: green;
+}
+
+div p span{
+    color: green;
+}
+
+ div span[class=especial]{
+    color: purple;
+}

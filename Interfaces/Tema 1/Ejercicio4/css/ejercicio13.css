@@ -1,0 +1,19 @@
+div:not(#contenedor){
+    background-color: orange;
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+    color: white;
+    font-size: 1em;
+    margin: 1em;
+    text-align: center;
+
+}
+#contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+
+}

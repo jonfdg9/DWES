@@ -1,0 +1,25 @@
+*{
+    color: grey;
+}
+p{
+    color: red;
+}
+
+span{
+    color: green;
+}
+em{
+    color: yellow;
+}
+h4{
+    color: black;
+}
+strong{
+    color: blue;
+}
+
+p:nth-child(8){
+    color:lightblue;
+}
+
+

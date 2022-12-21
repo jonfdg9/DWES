@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio4.css">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <main>
+        <h1>FICHA DE INSCRIPCION</h1>
+        <form name="formulario" id="formulario" method="get">
+            <fieldset>
+                <legend>Datos identificativos</legend>
+                <label>Codigo de Suscripcion</label> <input name="codigo" size="10" value="INS-00123" readonly>
+                <br>
+                <label>Nº Socio</label> <input name="socio" size="10" placeholder="123" disabled >
+                <br>
+                <label>Usuario</label> <input name="usuario" maxlength="10" required>
+                <br>
+                <label>Contraseña</label> <input  type="password" name="contra1" maxlength="10" required>
+                <br>
+                <label>Repite Contraseña</label> <input type="password" name="contra2" maxlength="10" required>
+                <br>
+                <label>Nombre Completo</label> <input name="nombre" size="30" maxlength="30">
+                <br>
+                <label>DNI</label> <input name="DNI" size="10" maxlength="8" pattern="^\d{8}$" title="Escribe 8 numeros">
+                <br>
+                <label>Letra</label> <input name="letra" size="2" maxlength="1" pattern="^[a-zA-Z]$" title="Escribe una Letra">
+                <br>
+                <label>Dirección</label> <input name="dir" size="30" maxlength="30">
+                <br>
+                <label>Ciudad</label> <input name="ciudad" size="15" maxlength="15">
+                <br>
+                <label>Código Postal</label> <input name="CP" size="5" maxlength="5" pattern="^\d{5}$" title="Pon la expresion correctamente. 5 digitos">
+                <br>
+                <label>Pais</label> <input name="Pais" size="7" value="Francia" disabled>
+
+            </fieldset>
+            <fieldset>
+                <legend>Datos Bancarios</legend>
+                <input type="radio" value="Visa" name="tar"> Visa
+                <input type="radio" value="Master Card" name="tar" checked> Master Card
+                <input type="radio" value="American Express" name="tar"> American Express
+            </fieldset>
+            <fieldset>
+                <legend>Aficiones</legend>
+                <input type="checkbox" name="Leer" value="LeerCheck" checked>Leer
+                <input type="checkbox" name="Viajar" value="ViajarCheck" checked>Viajar
+                <input type="checkbox" name="Escuchar Musica" value="MusicaCheck" checked>Escuchar Musica
+                <input type="checkbox" name="Deportes" value="DeportesCheck"> Deportes
+                <input type="checkbox" name="Montaña" value="MontañaCheck" >Montaña
+                <input type="checkbox" name="Juegos de Estrategia" value="MontañaCheck" checked>Juegos de Estrategia
+                <br>
+                <details>
+                    <summary>Mas opciones</summary>
+                    <input type="checkbox"  name="Informatica" value="InforCheck">Informatica
+                    <input type="checkbox"  name="Jogging" value="JogCheck">Jogging
+                    <input type="checkbox"  name="Cine" value="CineCheck">Cine
+                </details>
+            </fieldset>
+            <fieldset>
+                <legend>Enviar información</legend>
+                <details>
+                    <summary>Mas opciones</summary>
+                    Adjuntar resguardo de pago (PDF)<input type="file" name="archivo">
+                </details>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </fieldset>
+        </form>
+    </main>
+    
+</body>
+</html>

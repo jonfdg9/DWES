@@ -1,0 +1,32 @@
+p,span:not(.espe),div{
+    color: white;
+    width: bold;
+    border: thick solid black;
+    
+}
+h1{
+    text-align: center;
+}
+ .espe{
+    color: red;
+    font-size: 1.5em;
+    text-decoration: underline;
+    
+}
+
+p{
+    background-color: red;
+    width: 25%;
+    height: 75px;
+}
+
+div{
+    background-color: green;
+    width: 25%;
+    height: 75px;
+    margin-top: 12px;
+}
+span:not(.espe){
+background-color: blue;
+margin-right: 30px;
+}

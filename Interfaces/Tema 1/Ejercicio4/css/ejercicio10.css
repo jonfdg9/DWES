@@ -1,0 +1,88 @@
+*{
+    font-size: .7em;
+    font-family: Verdana, Arial, Helvetica;
+
+}
+
+p{
+    text-align: justify;
+}
+
+#cajaarriba{
+    background-image: url(../imagenes/arriba.gif);
+    border: 2px solid grey;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    justify-content: center;
+}
+
+#cajaabajo{
+    background-image: url(../imagenes/abajo.gif);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    padding-left: 69px;
+    padding-right: 75px;
+
+}
+p:first-child{
+    background-color: lightblue;
+    line-height: 20px;
+    width: 300px;
+    text-align: justify;
+}
+
+#cajita1{
+    background-color: #ccf;
+    float: right;
+    margin: 11px;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+#cajita2{
+    background-color: #c9f;
+    float: left;
+    margin: 11px;
+    padding: 10px;
+    width: 60px;
+}
+
+p:nth-of-type(2){
+   background-color: lightcyan;
+   padding: 10px;
+}
+
+#img1{
+    float: left;
+}
+p:nth-of-type(3){
+    background-color: lime;
+    padding: 10px;
+    
+}
+p:nth-of-type(4){
+    background-color: yellow;
+    padding: 10px;
+}
+
+#img2{
+    float: right;
+}
+#img2 + p +a{
+    float: none;
+    background-color: cyan;
+}
+#img3{
+    float: left;
+}
+#img3 + p +p{
+    float: none;
+}
+
+

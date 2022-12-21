@@ -1,0 +1,68 @@
+*{
+    font-family: Verdana;
+    color: navy;
+    font-family: .8em;
+   
+}
+
+p{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+#padre{
+    background-color: #CCF;
+    border: solid #9933ff;
+    position: relative;
+    z-index: 1;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+#h1{
+    background-color:#6CF;
+    border: solid blue;
+    width: 420px;
+    height: 300px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    z-index: 2;
+
+}
+
+#h2{
+    background-color:#FCF;
+    border: solid purple;
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    z-index: 3;
+}
+
+#h3{
+    background-color: transparent;
+    border: solid blue;
+    width: 200px;
+    height: 95px;
+    position: absolute;
+    top: 260px;
+    left: 220px;
+    z-index: 4;
+}
+#h4{
+    background-color:grey;
+    border: solid red;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 280px;
+    z-index: 3;
+
+}
